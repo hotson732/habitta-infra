@@ -1,0 +1,2 @@
+NAME        TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)        AGE   SELECTOR
+prueba-lb   LoadBalancer   10.101.22.101   192.168.100.240   80:32316/TCP   18s   app=prueba-lb

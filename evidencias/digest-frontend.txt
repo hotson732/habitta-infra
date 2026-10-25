@@ -1,0 +1,1 @@
+k3d-habitta-registry.localhost:5001/habitta-frontend@sha256:d3de6d9043d4df915d6aa3b61835dedf3e19c9f82752bfc5b570b54272b8f732

@@ -1,0 +1,24 @@
+# Tell Nixpacks to only use the PHP provider.
+# Without this, it auto-detects package.json and adds Node/npm to the build,
+# then fails because npm is not in nixPkgs. The Blade views use CDN Tailwind
+# so Vite/npm is not needed in production.
+providers = ["php"]
+
+[phases.setup]
+nixPkgs = [
+    "php83",
+    "php83Packages.composer",
+    "php83Extensions.gd",
+    "php83Extensions.pdo",
+    "php83Extensions.pdo_pgsql",
+    "php83Extensions.mbstring",
+    "php83Extensions.tokenizer",
+    "php83Extensions.xml",
+    "php83Extensions.curl",
+    "php83Extensions.fileinfo",
+    "php83Extensions.zip",
+    "php83Extensions.openssl"
+]
+
+[phases.install]
+cmds = ["composer install --no-dev --optimize-autoloader"]

@@ -1,0 +1,1 @@
+Gateway API CRDs: v1.6.3  | Traefik chart: 42.1.3

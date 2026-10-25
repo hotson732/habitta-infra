@@ -1,0 +1,9 @@
+NAMESPACE         NAME                                       READY   STATUS    RESTARTS   AGE
+calico-system     calico-kube-controllers-6bd48ccdb4-zsvgv   1/1     Running   0          2m11s
+calico-system     calico-node-v9jcs                          1/1     Running   0          2m11s
+calico-system     calico-typha-d4d669c5d-2t7xb               1/1     Running   0          2m11s
+calico-system     csi-node-driver-xbnj8                      2/2     Running   0          2m11s
+kube-system       coredns-7cfb7bc9c7-rzrzw                   1/1     Running   0          5m18s
+kube-system       local-path-provisioner-77b9867795-7x8kb    1/1     Running   0          5m18s
+kube-system       metrics-server-6dc596dfb8-gxldq            1/1     Running   0          5m18s
+tigera-operator   tigera-operator-686489b657-j8wv4           1/1     Running   0          3m19s
